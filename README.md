@@ -14,14 +14,14 @@
 ## Resources
 
 - **Resources used:**
-   - [The Oxford-IIIT Pet Dataset] (https://www.robots.ox.ac.uk/%7Evgg/data/pets/)
-   - [oxford_iiit_pet] (https://www.tensorflow.org/datasets/catalog/oxford_iiit_pet)
+   - [The Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/%7Evgg/data/pets/)
+   - [oxford_iiit_pet](https://www.tensorflow.org/datasets/catalog/oxford_iiit_pet)
    - Copilot
    - Perplexity
 
 ## Data Source
 
-- **Data source:** [oxford_iiit_pet] (https://www.tensorflow.org/datasets/catalog/oxford_iiit_pet) `dataset, info = tfds.load('oxford_iiit_pet:3.*.*', with_info=True)`
+- **Data source:** [oxford_iiit_pet](https://www.tensorflow.org/datasets/catalog/oxford_iiit_pet) `dataset, info = tfds.load('oxford_iiit_pet:3.*.*', with_info=True)`
 
 ## Code Repository
 
