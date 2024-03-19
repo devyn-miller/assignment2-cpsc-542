@@ -15,12 +15,13 @@
 
 - **Resources used:**
    - [The Oxford-IIIT Pet Dataset] (https://www.robots.ox.ac.uk/%7Evgg/data/pets/)
+   - [oxford_iiit_pet] (https://www.tensorflow.org/datasets/catalog/oxford_iiit_pet)
    - Copilot
    - Perplexity
 
 ## Data Source
 
-- **Data source:** CIFAR-10 dataset from Keras: `from keras.datasets import cifar10`
+- **Data source:** [oxford_iiit_pet] (https://www.tensorflow.org/datasets/catalog/oxford_iiit_pet) `dataset, info = tfds.load('oxford_iiit_pet:3.*.*', with_info=True)`
 
 ## Code Repository
 
@@ -28,7 +29,7 @@
 
 # Additional notes below — please read.
 
-1. All of the plots and figures for this project can be found in the Jupyter notebook entitled `main.ipynb`. The report only contains the graphs for the loss function and accuracy.
+1. All of the plots and figures for this project can be found in the Jupyter notebook entitled `main.ipynb`. The report only contains the metrics table and the graphs for the loss function and accuracy.
 2. I have included a folder called `not-for-submission` which contains supplementary Jupyter notebooks that were created during the development and experimentation process for the assignment, including playing around with various parameters. These notebooks are not part of the main submission but provide insights into the iterative development and exploration of different approaches. Each notebook represents a different version or variation of the main assignment, exploring different techniques, parameters, or design choices as discussed in the submitted report.
 
 Contents:
